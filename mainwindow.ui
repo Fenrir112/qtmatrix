@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>404</width>
-    <height>299</height>
+    <height>402</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,7 +25,7 @@
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QLabel" name="label_3">
+       <widget class="QLabel" name="labelB">
         <property name="text">
          <string>Размер матрицы B</string>
         </property>
@@ -34,7 +34,7 @@
       <item row="0" column="0">
        <layout class="QGridLayout" name="gridLayout_2">
         <item row="0" column="0">
-         <widget class="QLabel" name="label">
+         <widget class="QLabel" name="labelA">
           <property name="text">
            <string>Размер матрицы A</string>
           </property>
@@ -43,16 +43,16 @@
        </layout>
       </item>
       <item row="0" column="3">
-       <widget class="QLineEdit" name="column"/>
+       <widget class="QLineEdit" name="columnA"/>
       </item>
       <item row="1" column="3">
-       <widget class="QLineEdit" name="lineEdit"/>
+       <widget class="QLineEdit" name="ColumnB"/>
       </item>
       <item row="1" column="1">
-       <widget class="QLineEdit" name="lineEdit_2"/>
+       <widget class="QLineEdit" name="rowB"/>
       </item>
       <item row="0" column="1">
-       <widget class="QLineEdit" name="row"/>
+       <widget class="QLineEdit" name="rowA"/>
       </item>
       <item row="1" column="2">
        <widget class="QLabel" name="label_5">
@@ -73,7 +73,7 @@
       </property>
      </widget>
     </item>
-    <item row="3" column="0">
+    <item row="4" column="0">
      <widget class="QPushButton" name="closeButton">
       <property name="text">
        <string>Выход</string>
@@ -443,6 +443,9 @@
        </widget>
       </item>
      </layout>
+    </item>
+    <item row="3" column="0">
+     <widget class="QTextEdit" name="resultBox"/>
     </item>
    </layout>
   </widget>
